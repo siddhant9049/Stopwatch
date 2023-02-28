@@ -1,0 +1,81 @@
+.main-container{
+    /* background-color: aquamarine; */
+    height: 300px;
+    width: 500px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 1px;
+    /* border-style: dotted; */
+}
+body{
+    background-color: rgb(102, 102, 102);
+}
+
+#time{
+    margin-left: 90px;
+}
+
+
+#start,#pause,#reset,#cast{
+    /* background-color: aliceblue; */
+    height: 80px;
+    width: 100px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#start{
+    background-color: rgb(211, 113, 113); 
+    border: 2px solid brown;
+    border-radius: 10%;
+}
+#pause{
+    background-color: rgb(101, 161, 196); 
+    border: 2px solid rgb(30, 128, 255);
+    border-radius: 10%;
+}
+
+#reset{ 
+    background-color: rgb(236, 215, 121); 
+    border: 2px solid rgb(231, 216, 0);
+     border-radius: 10%;
+
+}
+#cast{
+    background-color: rgb(153, 238, 128); 
+    border: 2px solid rgb(132, 226, 103);
+    border-radius: 10%;
+}
+
+.outputt{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+
+#start:hover{
+    background-color: rgb(245, 163, 163);
+    height: 90px;
+    width: 110px;
+}
+
+#pause:hover{
+    background-color: rgb(245, 163, 163);
+    height: 90px;
+    width: 110px;
+}
+
+#reset:hover{
+    background-color: rgb(245, 163, 163);
+    height: 90px;
+    width: 110px;
+}
+
+#cast:hover{
+    background-color: rgb(245, 163, 163);
+    height: 90px;
+    width: 110px;
+}
+
